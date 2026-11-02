@@ -1,0 +1,7 @@
+homepage: 'https://metrunio.com'
+documentation: 'https://metrunio.com/en/help/gtm-verbinden'
+versions:
+  # Newest version first. `sha` is the commit of template.tpl in the public
+  # repository; it only exists once the file has been pushed there.
+  - sha: REPLACE_WITH_COMMIT_SHA
+    changeNotes: Initial release.
