@@ -459,7 +459,7 @@ ___WEB_PERMISSIONS___
 ___TESTS___
 
 scenarios:
-- name: Loads the script from collect.metrunio.com and initialises the tracker
+- name: Loads the script from Metrunio and initialises the tracker
   code: |-
     let loadedUrl;
     let config;
@@ -493,7 +493,7 @@ scenarios:
 
     assertThat(config.consent).isUndefined();
     assertApi('gtmOnSuccess').wasCalled();
-- name: Sends to the customer's own measurement domain
+- name: Sends to the own measurement domain of the customer
   code: |-
     let loadedUrl;
     let config;
