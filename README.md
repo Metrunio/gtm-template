@@ -6,7 +6,7 @@ Loads the Metrunio tracker on your website through Google Tag Manager.
 
 1. In Google Tag Manager, add a new tag and pick **Metrunio Tracking** from the
    Community Template Gallery.
-2. Enter the **Site ID** and **Write Key** from the Metrunio portal
+2. Enter the **Site ID** and **write key** from the Metrunio portal
    (Setup).
 3. If you set up your own measurement domain in the portal, enter it under
    **Measurement domain**, for example `https://gauge.example.com`. Otherwise
